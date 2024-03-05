@@ -1,0 +1,137 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    background-color: #1e202b;
+}
+nav a img{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+nav .logo-content h1{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 0.9em;
+    color: white;
+    font-weight: 700;
+}
+nav .logo-content p{
+    font-size: 0.5em;
+    display: block;
+    color: #bfc1c8;
+}
+
+nav .edit-section .active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    padding: 5px 25px !important;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+nav .edit-section a{
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 400;
+    font-size: 14px !important;
+    padding: 5px 25px !important;    
+}
+nav .edit-section a:hover{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+}
+.input-group{ 
+    background-color: #1e202b;
+}
+.input-group input{
+    background-color: #1e202b;
+    width: 88%;
+}
+.input-group input::placeholder{
+    color: #bfc1c8;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.input-group input:focus-visible{
+    outline: #1e202b !important;
+}
+.input-group input:focus-within{
+    color: white;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+    height: 90vh;
+}
+.banner .container{
+    padding-top: 60px;
+}
+.header-color{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.weather{
+    background-color: #323544;
+    color: #bfc1c8;
+    font-size: 14px;
+}
+.special{
+    background-color: #262936;
+}
+.header-color-special{
+    background-color: #1e202b;
+}
+.big{
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+}
+.degree{
+    font-size: 28px;
+}
+.degree-small{
+    font-size: 20px;
+}
+.custom{
+    color: #009ad8;
+}
+.bottom-left-border{
+    border-bottom-left-radius: 10px !important;
+}
+.bottom-right-border{
+    border-bottom-right-radius: 10px !important;
+}
+.top-left-border{
+    border-top-left-radius: 10px !important;
+}
+.top-right-border{
+    border-top-right-radius: 10px !important;
+}
+
+
+footer , .footer-color-special{
+    background-color: #262936;
+}
+.footer-color{
+    color: #bfc1c8;
+}
+.link{
+    color: #009ad8;
+    background-color: #1e202b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.link a{
+    font-size: 20px !important;
+}
+.link:hover{
+    background-color: #009ad8;
+}
+.link:hover a{
+    color: white !important;
+}
